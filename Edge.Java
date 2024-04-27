@@ -9,5 +9,16 @@ public class Edge{
         this.weigth = edgeweight;
     }
 
+    public Vertex getStart(){
+        return this.start;
+    }
+
+    public Vertex getEnd(){
+        return this.end;
+    }
+
+    public Integer getWeight(){
+        return this.weigth
+    }
     
 }
